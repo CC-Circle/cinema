@@ -455,3 +455,27 @@ Memory consumption went from 98.5 MB to 95.9 MB.
 Total: 4.500208 ms (FindLiveObjects: 0.259916 ms CreateObjectMapping: 0.114292 ms MarkObjects: 3.327500 ms  DeleteObjects: 0.798291 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 745.765032 seconds.
+  path: Assets/Low Poly Nature Pack Lite
+  artifactKey: Guid(2c7c49ecda238475ba5a6384fa6d792d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Nature Pack Lite using Guid(2c7c49ecda238475ba5a6384fa6d792d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2511e50d882a081be9fa7bd5c9fee7af') in 0.004732375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.682196 seconds.
+  path: Assets/MOV_CINEMA_CLIP_039_20230715130545434.mp4
+  artifactKey: Guid(a98c47ad935404957ad07004dc2431bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MOV_CINEMA_CLIP_039_20230715130545434.mp4 using Guid(a98c47ad935404957ad07004dc2431bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61be794e531db14b5f3fd3a84ef1f125') in 0.040677042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.695838 seconds.
+  path: Assets/movie1.mp4
+  artifactKey: Guid(a98c47ad935404957ad07004dc2431bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/movie1.mp4 using Guid(a98c47ad935404957ad07004dc2431bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8faab0fc8f3a68f74ffd9ea4b6f69e9c') in 0.000853292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
