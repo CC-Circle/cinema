@@ -32,3 +32,11 @@ sysinfo.txt
 .vs
 Release/
 Debug/
+
+# Video files
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.flv
+*.mkv
