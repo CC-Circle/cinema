@@ -2221,6 +2221,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rawImage: {fileID: 1738529922}
   videoPlayer: {fileID: 1738529921}
+  videoClips:
+  - {fileID: 32900000, guid: a98c47ad935404957ad07004dc2431bc, type: 3}
+  - {fileID: 32900000, guid: c137bc925ac374b4ba566a2b5b9b02e6, type: 3}
+  - {fileID: 32900000, guid: e6eafd0f0d4c547ae9885a3335497af1, type: 3}
+  - {fileID: 32900000, guid: d3662fcb2d9a54393896ce0658e90dcb, type: 3}
+  - {fileID: 32900000, guid: e34bf2591580146f3bc77a6abd64670d, type: 3}
 --- !u!1 &1787285601
 GameObject:
   m_ObjectHideFlags: 0
