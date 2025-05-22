@@ -479,3 +479,19 @@ Received Import Request.
 Start importing Assets/movie1.mp4 using Guid(a98c47ad935404957ad07004dc2431bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8faab0fc8f3a68f74ffd9ea4b6f69e9c') in 0.000853292 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
+========================================================================
+Received Import Request.
+  Time since last request: 453.781955 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(f022703b339c7430e8192657aa603d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(f022703b339c7430e8192657aa603d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5459b6f69c74b5d71e07db091caf806b') in 0.255174541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.318554 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(f022703b339c7430e8192657aa603d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(f022703b339c7430e8192657aa603d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc5151189c6fc6eb887ba97715b5b72c') in 0.013205625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
