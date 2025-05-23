@@ -125,7 +125,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 719357304}
+    m_TransformParent: {fileID: 1557289781}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c03f137e2d7b54ce1922f2d4529a1c24, type: 3}
       propertyPath: m_LocalScale.x
@@ -181,7 +181,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c03f137e2d7b54ce1922f2d4529a1c24, type: 3}
       propertyPath: m_Name
-      value: zaseki (1)
+      value: Seat1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -334,7 +334,7 @@ GameObject:
   - component: {fileID: 186977428}
   - component: {fileID: 186977432}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Step1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -427,7 +427,7 @@ Transform:
   m_LocalScale: {x: 33.53883, y: 1, z: 18.686073}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 719357304}
+  m_Father: {fileID: 1768515773}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &186977432
 MonoBehaviour:
@@ -460,7 +460,7 @@ GameObject:
   - component: {fileID: 213818880}
   - component: {fileID: 213818884}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: Step2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -553,7 +553,7 @@ Transform:
   m_LocalScale: {x: 33.53883, y: 1, z: 18.686073}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 719357304}
+  m_Father: {fileID: 1768515773}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &213818884
 MonoBehaviour:
@@ -578,7 +578,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 719357304}
+    m_TransformParent: {fileID: 1557289781}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c03f137e2d7b54ce1922f2d4529a1c24, type: 3}
       propertyPath: m_LocalScale.x
@@ -634,7 +634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c03f137e2d7b54ce1922f2d4529a1c24, type: 3}
       propertyPath: m_Name
-      value: zaseki (2)
+      value: Seat2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -685,7 +685,7 @@ GameObject:
   - component: {fileID: 422255713}
   - component: {fileID: 422255717}
   m_Layer: 0
-  m_Name: Plane (3)
+  m_Name: Wall1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -776,10 +776,10 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0.7071068, w: 0}
   m_LocalPosition: {x: 0, y: 6.3, z: 16.6}
-  m_LocalScale: {x: 3.530092, y: 2.5850112, z: 2.5850112}
+  m_LocalScale: {x: 3.5300922, y: 2.585011, z: 2.585011}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 719357304}
+  m_Father: {fileID: 1965080353}
   m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
 --- !u!114 &422255717
 MonoBehaviour:
@@ -864,7 +864,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: d6da23cd2c1cb48c2aa7fdb06c6b6961, type: 2}
     - target: {fileID: 919132149155446097, guid: 64540ab046403420c9b6a481765d35f1, type: 3}
       propertyPath: m_Name
-      value: feeld_01
+      value: Screen
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -915,7 +915,7 @@ GameObject:
   - component: {fileID: 657704657}
   - component: {fileID: 657704661}
   m_Layer: 0
-  m_Name: Plane (1)
+  m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1009,7 +1009,7 @@ Transform:
   m_LocalScale: {x: 3.5300918, y: 2.5850115, z: 2.5850115}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 719357304}
+  m_Father: {fileID: 1965080353}
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!114 &657704661
 MonoBehaviour:
@@ -1135,7 +1135,7 @@ GameObject:
   m_Component:
   - component: {fileID: 719357304}
   m_Layer: 0
-  m_Name: world
+  m_Name: World
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1154,24 +1154,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1787285605}
-  - {fileID: 186977431}
-  - {fileID: 213818883}
-  - {fileID: 897767645}
   - {fileID: 1946878504}
   - {fileID: 1513862395}
   - {fileID: 560694229}
-  - {fileID: 2010722285}
-  - {fileID: 53841500}
-  - {fileID: 274787310}
-  - {fileID: 1435528840}
-  - {fileID: 657704660}
-  - {fileID: 422255716}
-  - {fileID: 918752171}
-  - {fileID: 831735434}
-  - {fileID: 1964861373}
-  - {fileID: 1330503198}
-  - {fileID: 1969889254}
+  - {fileID: 1768515773}
+  - {fileID: 1513212389}
+  - {fileID: 1557289781}
+  - {fileID: 1965080353}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &831735432
@@ -1185,7 +1174,7 @@ GameObject:
   - component: {fileID: 831735434}
   - component: {fileID: 831735433}
   m_Layer: 0
-  m_Name: Spot Light
+  m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1269,7 +1258,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 719357304}
+  m_Father: {fileID: 1513212389}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &897767641
 GameObject:
@@ -1285,7 +1274,7 @@ GameObject:
   - component: {fileID: 897767642}
   - component: {fileID: 897767646}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Step3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1378,7 +1367,7 @@ Transform:
   m_LocalScale: {x: 33.53883, y: 1, z: 7.449764}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 719357304}
+  m_Father: {fileID: 1768515773}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &897767646
 MonoBehaviour:
@@ -1411,7 +1400,7 @@ GameObject:
   - component: {fileID: 918752168}
   - component: {fileID: 918752172}
   m_Layer: 0
-  m_Name: Plane (2)
+  m_Name: Wall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1505,7 +1494,7 @@ Transform:
   m_LocalScale: {x: 3.5300918, y: 2.5850115, z: 2.5850115}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 719357304}
+  m_Father: {fileID: 1965080353}
   m_LocalEulerAnglesHint: {x: -90, y: 90, z: 0}
 --- !u!114 &918752172
 MonoBehaviour:
@@ -1785,7 +1774,7 @@ GameObject:
   - component: {fileID: 1330503198}
   - component: {fileID: 1330503197}
   m_Layer: 0
-  m_Name: Spot Light (2)
+  m_Name: Light2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1869,7 +1858,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 719357304}
+  m_Father: {fileID: 1513212389}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &1435528837
 PrefabInstance:
@@ -1877,7 +1866,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 719357304}
+    m_TransformParent: {fileID: 1557289781}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c03f137e2d7b54ce1922f2d4529a1c24, type: 3}
       propertyPath: m_LocalScale.x
@@ -1933,7 +1922,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c03f137e2d7b54ce1922f2d4529a1c24, type: 3}
       propertyPath: m_Name
-      value: zaseki (3)
+      value: Seat3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1970,6 +1959,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c03f137e2d7b54ce1922f2d4529a1c24, type: 3}
   m_PrefabInstance: {fileID: 1435528837}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1513212388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1513212389}
+  m_Layer: 0
+  m_Name: Lights
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1513212389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513212388}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 831735434}
+  - {fileID: 1964861373}
+  - {fileID: 1330503198}
+  - {fileID: 1969889254}
+  m_Father: {fileID: 719357304}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1513862391
 GameObject:
   m_ObjectHideFlags: 0
@@ -1984,7 +2008,7 @@ GameObject:
   - component: {fileID: 1513862392}
   - component: {fileID: 1513862396}
   m_Layer: 0
-  m_Name: Plane (4)
+  m_Name: Ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2097,6 +2121,41 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   priority: 0
+--- !u!1 &1557289780
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1557289781}
+  m_Layer: 0
+  m_Name: Seats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1557289781
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557289780}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 53841500}
+  - {fileID: 274787310}
+  - {fileID: 1435528840}
+  - {fileID: 2010722285}
+  m_Father: {fileID: 719357304}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1738529919
 GameObject:
   m_ObjectHideFlags: 0
@@ -2227,6 +2286,41 @@ MonoBehaviour:
   - {fileID: 32900000, guid: e6eafd0f0d4c547ae9885a3335497af1, type: 3}
   - {fileID: 32900000, guid: d3662fcb2d9a54393896ce0658e90dcb, type: 3}
   - {fileID: 32900000, guid: e34bf2591580146f3bc77a6abd64670d, type: 3}
+--- !u!1 &1768515772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1768515773}
+  m_Layer: 0
+  m_Name: Steps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1768515773
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768515772}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1787285605}
+  - {fileID: 186977431}
+  - {fileID: 213818883}
+  - {fileID: 897767645}
+  m_Father: {fileID: 719357304}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1787285601
 GameObject:
   m_ObjectHideFlags: 0
@@ -2241,7 +2335,7 @@ GameObject:
   - component: {fileID: 1787285602}
   - component: {fileID: 1787285606}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Step
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2334,7 +2428,7 @@ Transform:
   m_LocalScale: {x: 33.53883, y: 1, z: 18.686073}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 719357304}
+  m_Father: {fileID: 1768515773}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1787285606
 MonoBehaviour:
@@ -2367,7 +2461,7 @@ GameObject:
   - component: {fileID: 1946878501}
   - component: {fileID: 1946878505}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2491,7 +2585,7 @@ GameObject:
   - component: {fileID: 1964861373}
   - component: {fileID: 1964861372}
   m_Layer: 0
-  m_Name: Spot Light (1)
+  m_Name: Light1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2575,8 +2669,42 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 719357304}
+  m_Father: {fileID: 1513212389}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &1965080352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1965080353}
+  m_Layer: 0
+  m_Name: Walls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1965080353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965080352}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 657704660}
+  - {fileID: 422255716}
+  - {fileID: 918752171}
+  m_Father: {fileID: 719357304}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1969889252
 GameObject:
   m_ObjectHideFlags: 0
@@ -2588,7 +2716,7 @@ GameObject:
   - component: {fileID: 1969889254}
   - component: {fileID: 1969889253}
   m_Layer: 0
-  m_Name: Spot Light (3)
+  m_Name: Light3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2672,7 +2800,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 719357304}
+  m_Father: {fileID: 1513212389}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &2010722282
 PrefabInstance:
@@ -2680,7 +2808,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 719357304}
+    m_TransformParent: {fileID: 1557289781}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c03f137e2d7b54ce1922f2d4529a1c24, type: 3}
       propertyPath: m_LocalScale.x
@@ -2736,7 +2864,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c03f137e2d7b54ce1922f2d4529a1c24, type: 3}
       propertyPath: m_Name
-      value: zaseki
+      value: Seat
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
